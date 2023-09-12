@@ -1,1 +1,1 @@
-C:\Users\pietr\OneDrive\Pulpit\rust\password_manager\target\debug\password_manager.exe: C:\Users\pietr\OneDrive\Pulpit\rust\password_manager\src\file_system.rs C:\Users\pietr\OneDrive\Pulpit\rust\password_manager\src\main.rs
+C:\Users\pietr\OneDrive\Pulpit\rust\file_system\target\debug\password_manager.exe: C:\Users\pietr\OneDrive\Pulpit\rust\file_system\src\file_system.rs C:\Users\pietr\OneDrive\Pulpit\rust\file_system\src\main.rs C:\Users\pietr\OneDrive\Pulpit\rust\file_system\src\read_file.rs

@@ -13,11 +13,15 @@ impl FileDatas{
     }
     pub fn to_file(&self)->Result<(),Box<dyn Error>>{
         
-        let mut file=OpenOptions::new().write(true).open(self.file_name.to_string()).unwrap();
-        // let mut file = BufWriter::new(f);
+        let mut file=OpenOptions::new()
+        .append(true)
+        .write(true)
+        .open(self.file_name.to_string())
+        .unwrap();
         
-        file.write_all(self.text.as_bytes())?;
-
+        writeln!(file,"{}",self.text)?;
+    //    file.write_all(self.text.as_bytes())?;
+        
         file.flush()?;
         
 
